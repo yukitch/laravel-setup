@@ -1,0 +1,6 @@
+source: app/Http/Controllers
+destination: public/api
+title: Laravel Api Doc
+tree: yes
+googleAnalytics:
+templateTheme: bootstrap

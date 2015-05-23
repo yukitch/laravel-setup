@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+  <title>Laravel setup app API</title>
+  <parser>
+    <target>./public/api</target>
+  </parser>
+  <logging>
+    <level>warn</level>
+    <paths>
+      <default>{APP_ROOT}/data/log/{DATE}.log</default>
+      <errors>{APP_ROOT}/data/log/{DATE}.errors.log</errors>
+    </paths>
+  </logging>
+  <transformer>
+    <target>./public/api</target>
+  </transformer>
+  <files>
+    <directory>./app/Http/Controllers</directory>
+    <!--<directory>./tests</directory>-->
+  </files>
+</phpdoc>

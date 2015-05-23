@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+/storage
+/public/api
+/bower_components
+/public/lib
+
+.env
+composer.lock
